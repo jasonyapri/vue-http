@@ -1,19 +1,23 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <h1>Lifecycle Hooks</h1>
-  <Parent />
+  <h1>HTTP GET POST Request</h1>
+  <CreatePost />
+  <hr>
+  <PostList />
 </template>
 
 <script>
-import Parent from './components/Parent.vue'
+import PostList from './components/PostList.vue'
+import CreatePost from './components/CreatePost.vue'
 
 export default {
   name: 'App',
   components: {
-    Parent
+    PostList,
+    CreatePost
   }
 }
-</script>
+</script>>
 
 <style>
 #app {
