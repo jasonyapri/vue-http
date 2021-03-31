@@ -1,27 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <h1>Lifecycle Hooks</h1>
-  <Parent />
+    <h1>TemplateRefs</h1>
+    <TemplateRef />
 </template>
 
 <script>
-import Parent from './components/Parent.vue'
+    import TemplateRef from './components/TemplateRef.vue'
 
-export default {
-  name: 'App',
-  components: {
-    Parent
-  }
-}
+    export default {
+        name: 'App',
+        components: {
+            TemplateRef
+        }
+    }
 </script>
 
-<style>
+<style scoped>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
 }
 </style>
